@@ -3,8 +3,4 @@ The SOLID principles are guidelines for writing clean, maintainable, and extensi
 
 # 1. Single Responsibility Principle (SRP)
 
-Definition:
-A class should have only one responsibility or reason to change.
-
-Encountered Problem:
-When a class has multiple responsibilities, it becomes complex and difficult to maintain. A change in one responsibility can impact the other.
+The class should solve only one problem it should have a single reason to change, ‘do one thing and do it well’, a class should have one and only one reason to change, meaning that a class should have only one job.
