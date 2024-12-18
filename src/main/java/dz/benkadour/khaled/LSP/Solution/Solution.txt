@@ -1,0 +1,6 @@
+Solution: Apply the Liskov Substitution Principle
+
+To adhere to the LSP, we should avoid using an inheritance relationship between Rectangle and Square because a square is not a type of rectangle in this context 
+(their behaviors differ fundamentally). Instead, we can use composition or a separate abstraction.
+
+Refactoring in the solution folder:

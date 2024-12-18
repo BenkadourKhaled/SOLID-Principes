@@ -1,0 +1,4 @@
+Problem:
+
+When a subclass modifies or overrides the behavior of a parent class in a way that does not adhere to the original intent of the parent class, 
+it can lead to bugs or unpredictable behavior.
