@@ -1,0 +1,4 @@
+Solution: Apply the Open/Closed Principle
+    To respect the Open/Closed Principle, we need to use inheritance and abstraction to allow extension without modifying the main class.
+    We will introduce a PaymentMethod interface and concrete classes for each payment method. 
+    The PaymentProcessor class will handle each payment type without being modified.

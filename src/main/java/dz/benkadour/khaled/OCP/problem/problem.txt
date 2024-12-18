@@ -1,0 +1,4 @@
+Problems:
+   1- Constant modification: Every time a new payment type is added, the PaymentProcessor class must be modified.
+   2- Violate OCP: The PaymentProcessor class is open for modification but closed for extension. It requires modification every time a new payment type is added.
+   3- Maintenance difficulty: This makes the code difficult to maintain in the long term.
