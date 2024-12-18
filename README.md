@@ -7,6 +7,14 @@ The class should solve only one problem it should have a single reason to change
 Encountered Problem:
 When a class has multiple responsibilities, it becomes complex and difficult to maintain. A change in one responsibility can impact the other.
 
+Solution:
+
+To address the problem of a class having multiple responsibilities, apply the Single Responsibility Principle (SRP) by splitting the class into smaller, focused classes, each with a single responsibility. This ensures that:
+
+    1- Separation of Concerns: Each class handles one responsibility, reducing interdependence.
+    2- Ease of Maintenance: Changes to one responsibility do not affect others.
+    3- Reusability: Classes with well-defined responsibilities are easier to reuse in other contexts.
+
 # 2. Open/Closed Principle (OCP)
 Definition:
 A class should be open for extension but closed for modification.
