@@ -1,0 +1,9 @@
+Solution: Apply SRP
+
+To respect the Single Responsibility Principle, each class should have a single reason to change. Let's separate the responsibilities into multiple classes:
+
+    Employee Class: Represents only the employee's data.
+    SalaryCalculator Class: Responsible for calculating salaries.
+    EmployeeRepository Class: Responsible for data persistence.
+
+Refactored Code as in the Classes:

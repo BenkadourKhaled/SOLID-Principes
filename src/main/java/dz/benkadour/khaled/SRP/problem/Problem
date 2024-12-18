@@ -1,0 +1,7 @@
+Problems:
+
+    The Employee class violates the SRP because it has multiple responsibilities:
+        1- Calculating the salary.
+        2- Managing data persistence.
+    If you need to change the way the salary is calculated or how employees are saved, it affects the same class, increasing complexity and the risk of errors.
+    The code becomes difficult to test and maintain.
