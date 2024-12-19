@@ -1,0 +1,10 @@
+Problem: Direct coupling between modules
+
+Imagine a scenario where a class OrderService directly depends on a class EmailNotification. If we want to change the type of notification (e.g., to SMS), 
+this would require modifying OrderService. Such rigid coupling makes the code difficult to maintain.
+
+Problems:
+
+    Direct dependency: OrderService directly depends on EmailNotification. If we want to use another type of notification (e.g., SMS, Push Notification), we need to modify OrderService.
+    Violation of DIP: The high-level module (OrderService) depends on the low-level module (EmailNotification) instead of an abstraction.
+    Limited testability: It is difficult to test OrderService with a different type of notification without modifying the code.

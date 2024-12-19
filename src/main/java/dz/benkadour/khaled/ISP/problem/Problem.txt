@@ -1,0 +1,11 @@
+Problem: Interfaces too large
+
+Let's imagine a Worker interface in an employee management system. It defines several methods, but not all classes implementing this interface need all of these methods.
+
+Initial code (Violation of ISP):
+
+Problems:
+
+    Unnecessary implementation: The Robot class is forced to implement the eat() method, even though it doesn't need this functionality.
+    Violation of ISP: Clients using the Worker interface are dependent on methods they will never use.
+    Impact on maintainability: If the Worker interface is modified, all classes that implement it will be impacted, even if they don't need the new methods.

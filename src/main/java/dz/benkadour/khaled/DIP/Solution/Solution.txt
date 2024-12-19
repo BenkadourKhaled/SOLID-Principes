@@ -1,0 +1,5 @@
+Solution: Apply the DIP
+
+To solve this problem, introduce an abstraction (an interface) so that OrderService does not directly depend on the implementation of notifications.
+
+Refactoring adhering to the DIP:
